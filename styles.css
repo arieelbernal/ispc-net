@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.title {
+  font-weight: bold;
+  text-align: center;
+  width: 60%;
+  margin: 30px 20% 0;
+}
+
+.navegador {
+  display: flex;
+  justify-content: end;
+}
+
+nav a{
+    color: black !important;
+}
+
+nav a:hover {
+    color:white !important; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 2rem 0 0;
+  overflow: hidden;
+  top: 0;
+}
+
+li {
+  float: left;
+  border: solid 1.5px;
+  border-radius: 6px;
+  margin: 0.5rem;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #000000;
+  color: white;
+}
+
+img {
+  height: auto;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+table, th, td {
+  border: 1px solid;
+  color: blue;
+}
+
+.clubes a {
+  display: flex;
+  justify-content: space-around;
+}
